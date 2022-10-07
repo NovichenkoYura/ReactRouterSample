@@ -23,7 +23,7 @@ function App() {
         <Route index element={< Main/>}/>
         <Route path="explore" element={< Explore/>}/>
         <Route path="subscribers" element={< Subscribers/>}/>
-        <Route path="subscription" element={< Subscriptions/>}/>
+        <Route path="subscription/*" element={< Subscriptions/>}/>
         <Route path="messages" element={< Messages/>}/>
         <Route path="saved" element={< Saved/>}/>
         <Route path="settings" element={< Settings/>}/>

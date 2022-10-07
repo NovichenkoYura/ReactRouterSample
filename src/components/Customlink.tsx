@@ -2,7 +2,7 @@ import { Link, useMatch } from "react-router-dom";
 
 interface CustomLinkProps {
 children: string;
-to: string;
+to?: any;
 }
 
 

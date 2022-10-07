@@ -10,7 +10,7 @@ const Layout = ()=>{
             <NavLink to='/' className={setActive}>Main</NavLink>
             <NavLink to='/explore' className={setActive}>Explore</NavLink>
             <NavLink to='/subscribers' className={setActive}>Subscribers</NavLink>
-            <NavLink to='/subscription' className={setActive}>Subscriptions</NavLink>
+            <NavLink to='/subscription/' className={setActive}>Subscriptions</NavLink>
             <NavLink to='/messages' className={setActive}>Messages</NavLink>
             <NavLink to='/saved' className={setActive}>Saved</NavLink>
             <NavLink to='/settings' className={setActive}>Settings</NavLink>
